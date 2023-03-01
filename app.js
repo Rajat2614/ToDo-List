@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://RajatChauhan:Rajat%40123@cluster0.73vix.mongodb.net/todolistDB", { useNewUrlParser: true });
+mongoose.connect("mongodb+srv://RajatChauhan:Rajat%40123@cluster0.73vix.mongodb.net/test", { useNewUrlParser: true });
 
 const itemsSchema = new mongoose.Schema({
     item: String
